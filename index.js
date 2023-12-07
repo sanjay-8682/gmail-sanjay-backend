@@ -8,7 +8,7 @@ dotenv.config()
 const port=process.env.PORT
 
 const app=express()
-
+app.options('*', cors())
 app.search(cors())
 app.use(express.json())
 app.use('/api/gmail',gmailrouter)

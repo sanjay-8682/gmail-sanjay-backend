@@ -11,7 +11,7 @@ const router=express.Router()
 router.use(
     cors({
         credentials:true,
-        origin: 'https://glowing-croquembouche-962080.netlify.app/'
+        origin: 'https://glowing-croquembouche-962080.netlify.app'
     })
 )
 
